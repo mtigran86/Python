@@ -1,6 +1,3 @@
-from xml.etree.ElementTree import Comment
-
-
 num1 = input("Please, input 1st number \n")
 number_1 = int(num1)
 #print(number_1)
