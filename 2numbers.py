@@ -5,7 +5,7 @@ num1 = input("Please, input 1st number \n")
 number_1 = int(num1)
 #print(number_1)
 num2 = input("Please, input 1st number \n")
-number_2 = int(num2)
+number_2 = int(number_2)
 #print(number_2)
 
 
