@@ -1,9 +1,7 @@
 num1 = input("Please, input 1st number \n")
 num2 = input("Please, input 2nd number \n")
 
-
-
-if num1.isdigit() and num2.isdigit():
+try:
     number_1=int(num1)
     number_2=int(num2)
     #product
@@ -23,5 +21,5 @@ if num1.isdigit() and num2.isdigit():
         print(f"{number_1} % {number_2} = {number_1 % number_2}")
     else:
         print("\n---===   Devision by 0   ===---")
-else:
+except ValueError:
     print("\n ---===   Please, input only integers   ===---")
